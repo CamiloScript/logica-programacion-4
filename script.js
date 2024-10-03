@@ -17,7 +17,7 @@ function getFibonacciSeries(n) {
   const series = [0, 1];
   for (let i = 2; i < n; i++) {
     series.push(series[i - 1] + series[i - 2]);
-  }
+  } // Retorna una serie de numeros que se separan gracias a la función slice.
   return series.slice(0, n);
 }
 
