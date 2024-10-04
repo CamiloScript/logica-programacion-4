@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: antiquewhite;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: orange;
+    margin-bottom: 20px;
+  }
+  
+  #numberInput {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid orange;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    min-height: 50px;     
+  }
