@@ -17,5 +17,4 @@ Entrada:
 Salida: 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34.
 Pruébalo con los números que se te ocurran.
-Al final de tu práctica, tienes que subir el ejercicio a tu repositorio de GitHub.
-Colócalo en un repositorio llamado “logica-programacion-4”
+
