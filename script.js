@@ -26,3 +26,5 @@ function displayResult(series) {
   const resultDiv = document.getElementById("resultado");
   resultDiv.innerHTML = `Serie de Fibonacci: ${series.join(", ")}`;
 }
+
+console.log("Hola Amigos Como estan!")
